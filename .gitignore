@@ -1,0 +1,4 @@
+/node_modules
+/backend/node_modules
+/my_app/node_modules
+/my-app/build

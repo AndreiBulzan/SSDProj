@@ -1,0 +1,54 @@
+.app-header{
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+.user-input{
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
+
+input{
+    padding: 4px;
+    margin-right: 2rem;
+    border-radius: 10px;
+    border-width: thin;
+}
+
+/* ptr acasa */
+button{
+    background-color: #7FDBFF;
+    color: white;
+    border-radius: 10px;
+    font-weight: bold;
+    padding: 10px;
+    border-width: thin;
+    cursor: pointer;
+}
+
+.table-container{
+    width: 50%;
+    margin: 0 auto;
+}
+
+.table-style{
+    border: 1px solid black;
+    padding: 1rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.line-through{
+    text-decoration: line-through;
+}
+
+
+.remove-button{
+    color: red;
+    border: 0;
+    background-color: white;
+}
