@@ -14,7 +14,7 @@ class TodoApp extends React.Component {
     getToDo = ()=>
     {
         instance.get('/getTodos').then( (response) => {
-        this.setState({ todos: response});
+        this.setState({ todos: response.data});
         })
     }
 
