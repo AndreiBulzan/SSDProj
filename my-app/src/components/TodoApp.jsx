@@ -14,7 +14,7 @@ class TodoApp extends React.Component {
     getToDo = ()=>
     {
         instance.get('/getTodos').then( (response) => {
-        this.setState({ todos: response});
+        this.setState({ todos: response.data});
         })
     }
 
@@ -23,7 +23,7 @@ class TodoApp extends React.Component {
         .then((response) =>
         {
             console.log(response);
-            const todos = response.data;
+            const todos = response.data.todos;
             this.setState({ todos});
         }
         )
