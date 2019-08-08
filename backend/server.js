@@ -4,6 +4,7 @@ const cors = require('cors');
 const bodyParser = require('body-parser');
 app.use(cors());
 app.use(bodyParser.json());
+var Cloudant = require('@cloudant/cloudant');
 
 let todos=[];
 
