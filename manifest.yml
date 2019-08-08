@@ -1,6 +1,6 @@
 ---
  applications:
   - name: mixin-app42312311
-   random-route: false
-   memory: 128M
-   command: npm install --prefix ./backend && node ./backend/server.js
+    random-route: false
+    memory: 128M
+    command: npm install --prefix ./backend && node ./backend/server.js
